@@ -217,3 +217,13 @@ main section {
     font-size: 16px;
     font-weight: 400;
 }
+
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
