@@ -1,4 +1,10 @@
 /* Shared Styles */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -53,9 +59,9 @@ nav a {
 
 .header-class {
     background: #FFF8F3;
-    background-image: url(/images/header_bg.png);
+    background-image: url(../images/header_bg.png), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 
 
 }
